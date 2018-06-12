@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Added link to the jQuery Library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- Reset CSS -->
+    <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+
+    <!-- Google Font-->
+    <link href="https://fonts.googleapis.com/css?family=Fugaz+One" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+
+    <title>Crystal Collector</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                    <div class="jumbotron jumbotron-fluid" id="crystalbg">
+                            <div class="container">
+                                    <h1 class="display-4"><strong>Crystal Collection Game</strong></h1>
+                    <p>You will be given a random number at the start of the game.</p>
+                    <p>There are four crystals below. By clicking on a magic crystal you will add a specific amount of points
+                        to your total score.</p>
+                    <p>You win the game by matching your total score to the random number and you lose the game if your total
+                        score goes aboove the random number.
+                    </p>
+                    <p>The value of each magic crystal is hidden from you until you click on it.</p>
+                    <p>Each time when the game starts, the game will change the values of each magic crystal</p>
+                    <div class="hr"></div>
+                    <div class="button-row">
+                        <button type="button" class="btn btn-success btn-lg">Wins:
+                            <span id="wins">0</span>
+                        </button>
+                        <button type="button" class="btn btn-danger btn-lg">Losses:
+                            <span id="losses">0</span>
+                        </button>
+                        <button type="button" class="btn btn-dark btn-lg">Random Number:
+                            <span id="computer">0</span>
+                        </button>
+                        <button type="button" class="btn btn-primary btn-lg">Total Score:
+                            <span id="totalScore">0</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <div class="crystal-row">
+                <div class="card">
+                    <div class="card-body" id="imageCrystal">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <!-- Link to Javascript Game -->
+    <script src="assets/javascript/game.js"></script>
+
+    <!--Bootstrap links -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

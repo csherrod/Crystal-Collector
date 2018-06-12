@@ -1,0 +1,38 @@
+.display-4 {
+    font-family: 'Fugaz One', cursive;
+}
+    
+#crystalbg {
+    background-image: url('./crystalbg2.jpg');
+    background-size: cover;
+}
+.jumbotron {
+    color: black;
+}
+.jumbotron h1 {
+    text-align: center;
+}
+.hr {
+    height: 2px;
+    background-color: #368EFF;
+    margin: 10px;
+}
+.button-row {
+    text-align: center;
+    font-family: 'Fugaz One', cursive;
+}
+.crystal-row {
+    text-align: center;
+}
+.img-thumbnail {
+    max-width: 100px;
+    max-height: 100px;
+}
+
+.crystalImage {
+    max-width: 100px;
+    max-height: 100px;
+}
+#imageCrystal:hover {
+    background-color: #368EFF;
+}
