@@ -23,7 +23,8 @@ You need to have working knowledge of html, css and javascript.
 ## Issues
 * No known issues at this time
 
-* If you would like to report an issue please feel free to send me an email [here](mailto:w.cody.sherrod@gmail.com)
+* **If you would like to report an issue please feel free to send me an email [here](mailto:w.cody.sherrod@gmail.com)**
 
 ## Contact Information
-[LinkedIn](www.linkedin.com/in/cody-sherrod)
+* [Email](mailto:w.cody.sherrod@gmail.com)
+* [LinkedIn](www.linkedin.com/in/cody-sherrod)
