@@ -1,6 +1,6 @@
 ## Project Title: Crystal Collector Game
 
-If you want to check out a working version of this site click [here](https://github.com/csherrod/Crystal-Collector)
+If you want to check out a working version of this site click [here](https://csherrod.github.io/Crystal-Collector)
 
 ## Prerequisites
 
